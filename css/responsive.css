@@ -1,0 +1,63 @@
+:root {
+  /* --text-color: #fff;
+  --main-color: #0ef;
+  --bg-color: #010a16;
+  --second-bg-color: #0a1524ef; */
+--bg-color: #1f242d;
+  --text-color: #fff;
+  --main-color: #0ef;
+  --second-bg-color: #323946;
+}
+@media (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header{
+        padding:2rem 3%;
+    }
+    
+    section{
+        padding: 10rem 3% 2rem;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+
+    .home_img img{
+      width: 35vw;
+}
+    .about_img img{
+       width: 35vw;
+}
+}
+
+@media (max-width: 768px) {
+    #menu_icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);  
+        border-top: .1rem solid rgba(0 ,0 ,0 ,.2) ;   
+        box-shadow: 0 .5rem 1rem rgba(0 ,0 ,0 ,.2);   
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+}
+
+
+
+
+
+
