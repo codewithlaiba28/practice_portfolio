@@ -12,10 +12,10 @@
 }
 
 :root {
-  /* --text-color: #fff;
+  --text-color: #fff;
   --main-color: #0ef;
   --bg-color: #010a16;
-  --second-bg-color: #0a1524ef; */
+  --second-bg-color: #0a1524ef;
 --bg-color: #1f242d;
   --text-color: #fff;
   --main-color: #0ef;
@@ -91,6 +91,19 @@ section {
 
 .home_img img{
   width: 30vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .home_content h3{
