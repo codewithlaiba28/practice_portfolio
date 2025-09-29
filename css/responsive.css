@@ -1,12 +1,12 @@
 :root {
-  /* --text-color: #fff;
-  --main-color: #0ef;
-  --bg-color: #010a16;
-  --second-bg-color: #0a1524ef; */
---bg-color: #1f242d;
   --text-color: #fff;
   --main-color: #0ef;
-  --second-bg-color: #323946;
+  --bg-color: #010a16;
+  --second-bg-color: #0a1524ef;
+/* --bg-color: #1f242d;
+  --text-color: #fff;
+  --main-color: #0ef;
+  --second-bg-color: #323946; */
 }
 @media (max-width: 1200px) {
     html{
@@ -41,9 +41,7 @@
         padding: 2rem 3%;
     }
 
-    .home_img img{
-      width: 35vw;
-}
+
     .about_img img{
        width: 35vw;
 }
@@ -83,7 +81,6 @@
         font-size: 5rem;
     }
     .home_img img{
-        width: 70vw;
         margin-top: 4rem;
     }
     .about {

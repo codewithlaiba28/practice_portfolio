@@ -16,10 +16,10 @@
   --main-color: #0ef;
   --bg-color: #010a16;
   --second-bg-color: #0a1524ef;
---bg-color: #1f242d;
+/* --bg-color: #1f242d;
   --text-color: #fff;
   --main-color: #0ef;
-  --second-bg-color: #323946;
+  --second-bg-color: #323946; */
 }
 
 html {
@@ -89,10 +89,43 @@ section {
   align-items: center; 
 }
 
-.home_img img{
-  width: 30vw;
+.home_img {
   animation: floatImage 4s ease-in-out infinite;
 }
+.box {
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            width: 400px;
+            height: 420px;
+        }
+        
+        .image-container {
+            position: relative; 
+            width: 400px;
+            max-width: 100%;
+            
+        }
+
+        .base-image {
+            width: 100%;
+            display: block;
+            z-index: 1; 
+            position: relative;
+        }
+        
+        .overlay-image {
+    height: 409px;
+    position: absolute;
+    left: 51%;           
+    transform: translateX(-50%); 
+    bottom: 0;
+    width: 348px;
+    z-index: 2;
+}
+
 
 @keyframes floatImage {
   0% {
@@ -235,8 +268,8 @@ span{
 }
 
 .services_box p {
-  font-size: 1.6rem;
-  margin: 1rem 0 3rem;
+  font-size: 1.4rem;
+  margin: 2rem 0 3rem;
 }
 
 .portfolio{
